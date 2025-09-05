@@ -1,0 +1,19 @@
+{% include "base_layout.html" %}
+
+{% load static %}
+    <!--banner -->
+    {% block banner %}
+    {% include "banner_layout.html" %}
+    {% endblock banner %}
+
+    <!--home page content-->
+    {% block home_page_content %}
+    {% include "home_page_content.html" %}
+    {% endblock home_page_content %}
+
+     <!--footer layout-->   
+     {% block footer %}
+     {% include "footer_layout.html" %}
+     {% endblock footer %}
+    
+
